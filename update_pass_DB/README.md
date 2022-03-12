@@ -1,5 +1,4 @@
 ## Info
----
 Uploads the .kdbx file to my google drive.
 This file is used by KeePassXC to store passwords and is saved locally.
 
