@@ -1,18 +1,4 @@
 #!/Users/user/.virtualenvs/automations/bin/python3
-'''Update my passwords.kdbx file in google drive.
-
-.kdbx file is the database that KeePassXC uses to store pesonal passwords.
-
-Had to add the following lines in pydrive/settings.py line:145 in order to
-accept the custom settings. They need to be a dictionary, while the library
-produced a list of dictionaries.
-`
-s = {}
-for d in data:
-    s.update(d)
-return s
-`
-'''
 import os
 import shutil
 from pathlib import Path
